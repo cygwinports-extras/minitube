@@ -1,0 +1,60 @@
+minitube
+------------------------------------------
+Minitube is a native YouTube client. With it you can watch YouTube 
+videos in a new way: you type a keyword, Minitube gives you an endless 
+video stream. Minitube does not require the Flash Player.
+
+Runtime requirements:
+  cygwin-1.7.0-64
+  gstreamer0.10-plugins-base
+  gstreamer0.10-plugins-faad
+  gstreamer0.10-plugins-ffmpeg
+  gstreamer0.10-plugins-good
+  gstreamer0.10-plugins-oss
+  gstreamer0.10-plugins-soup
+  gstreamer0.10-plugins-ximage
+  libgcc1-4.3.4-1
+  libphonon4-4.3.1-2
+  libQtCore4-4.5.3-1
+  libQtGui4-4.5.3-1
+  libQtNetwork4-4.5.3-1
+  libstdc++6-4.3.4-1
+  phonon-gstreamer-4.3.1-2
+
+Build requirements:
+(besides corresponding -devel packages)
+  binutils-2.19.51-1
+  cygport-0.9.10-1
+  gcc4-core-4.3.4-1
+  gcc4-g++-4.3.4-1
+  make-3.81-2
+
+Canonical website:
+  http://flavio.tordini.org/minitube
+
+Canonical download:
+  http://flavio.tordini.org/files/minitube/minitube-0.8.1.tar.gz
+
+-------------------------------------------
+
+Build instructions:
+  unpack minitube-0.8.1-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./minitube-0.8.1-X.cygport all
+
+This will create:
+  /usr/src/minitube-0.8.1-X-src.tar.bz2
+  /usr/src/minitube-0.8.1-X.tar.bz2
+
+-------------------------------------------
+
+Port Notes:
+
+----- version 0.8.1-1 -----
+Initial release for Cygwin 1.7.
+
+
+Cygwin port maintained by:
+http://sourceware.org/cygwinports/

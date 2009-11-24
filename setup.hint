@@ -1,0 +1,6 @@
+category: Video
+requires: gstreamer0.10-plugins-base gstreamer0.10-plugins-faad gstreamer0.10-plugins-ffmpeg gstreamer0.10-plugins-good gstreamer0.10-plugins-oss gstreamer0.10-plugins-soup gstreamer0.10-plugins-ximage libgcc1 libphonon4 libQtCore4 libQtGui4 libQtNetwork4 libstdc++6 phonon-gstreamer
+sdesc: "Qt4 YouTube client"
+ldesc: "Minitube is a native YouTube client. With it you can watch 
+YouTube videos in a new way: you type a keyword, Minitube gives you an 
+endless video stream. Minitube does not require the Flash Player."
