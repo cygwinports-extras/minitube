@@ -1,6 +1,0 @@
-inherit qt4-qmake
-
-DESCRIPTION="Qt4 YouTube client"
-HOMEPAGE="http://flavio.tordini.org/minitube"
-SRC_URI="http://flavio.tordini.org/files/minitube/${P}.tar.gz"
-SRC_DIR=${PN}

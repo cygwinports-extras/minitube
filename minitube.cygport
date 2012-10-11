@@ -1,0 +1,15 @@
+NAME="minitube"
+VERSION=1.9
+RELEASE=1
+CATEGORY="Video"
+SUMMARY="Qt4 YouTube client"
+DESCRIPTION="Minitube is a native YouTube client. With it you can watch YouTube
+videos in a new way: you type a keyword, Minitube gives you an endless video
+stream. Minitube does not require the Flash Player."
+HOMEPAGE="http://flavio.tordini.org/minitube"
+SRC_URI="http://flavio.tordini.org/files/minitube/${NAME}-${VERSION}.tar.gz"
+SRC_DIR=${NAME}
+
+REQUIRES="gstreamer0.10-plugins-base gstreamer0.10-plugins-faad gstreamer0.10-plugins-ffmpeg gstreamer0.10-plugins-good gstreamer0.10-plugins-soup gstreamer0.10-plugins-ximage phonon-backend-gstreamer"
+
+inherit qt4-qmake
