@@ -1,5 +1,5 @@
 NAME="minitube"
-VERSION=2.0
+VERSION=2.3
 RELEASE=1
 CATEGORY="Video"
 SUMMARY="Qt4 YouTube client"
@@ -10,6 +10,6 @@ HOMEPAGE="http://flavio.tordini.org/minitube"
 SRC_URI="http://flavio.tordini.org/files/minitube/${NAME}-${VERSION}.tar.gz"
 SRC_DIR=${NAME}
 
-REQUIRES="gstreamer0.10-plugins-base gstreamer0.10-plugins-faad gstreamer0.10-plugins-ffmpeg gstreamer0.10-plugins-good gstreamer0.10-plugins-soup gstreamer0.10-plugins-ximage phonon-backend-gstreamer"
+REQUIRES="phonon-backend-vlc"
 
 inherit qt4-qmake
